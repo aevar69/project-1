@@ -3,43 +3,13 @@ margin: 0;
 padding: 0;
 font-family: Roboto, -apple-system, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif
 
- }
+}
 
-
- /* #particles-js{ 
-height: 100vh;
-
-}  */
- 
  .background{
 background-image: linear-gradient(to bottom right ,#000000 20%, #3F72AF );
 background-repeat: no-repeat;
  width:auto; 
 } 
-
-/*
-.button1{
-display: inline-block;
-transition: 0.4s;
-animation-name: button1;
-animation-duration: 7s;
-}
-
-.button1:hover {
-transform: scale(1.1);
-
-}
-
-.button2 {
-    display: inline-block;
-    transition: 0.4s;
-    animation-name: button2;
-    animation-duration: 7s;
-}
-    .button2:hover {
-        transform: scale(1.1);     
-}
-*/
 
 @keyframes logo1 {
     0%{
@@ -275,10 +245,12 @@ animation-duration: 7s;
 	width: 1px;
 	height: 1px;
 	clip: rect(0 0 0 0);
+	
 }
 
 .input-block {
 	margin-bottom: 20px;
+
 }
 
 .input-block label {
@@ -319,19 +291,56 @@ animation-duration: 7s;
 }
 
 .btn-login {
-	color: #ffffff;
-	background-image: linear-gradient(to bottom right ,#000000 20%, #3F72AF );
-	box-shadow: inset 0 0 0 2px #000000;
-	display: inline-block;
-    transition: 0.5s;
+	cursor: pointer;
+	border-radius: 50px;
+	border: 0;
+	box-shadow: rgb(0 0 0 / 0.5)0 00 8px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 15px;
+	transition: all 0.5s ease;
+}
+.btn-login:hover{
+letter-spacing: 1px;
+background-color:#3F72AF ;
+color:#000000;
+box-shadow: #000000;
+
+}
+.btn-login:active{
+
+letter-spacing: 1px;
+background-color: #3F72AF;
+color: #000000;
+box-shadow: white;
+transform: translateX(10px);
+transition: 100ms;
 }
 
 
 .btn-signup {
-	color: #ffffff;
-	background-image: linear-gradient(to bottom right ,#000000 20%, #3F72AF );
-	box-shadow: inset 0 0 0 2px #000000;
-	display: inline-block;
-    transition: 0.4s;
-    
+	cursor: pointer;
+	border-radius: 50px;
+	border: 0;
+	box-shadow: rgb(0 0 0 / 0.5)0 00 8px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 15px;
+	transition: all 0.5s ease;
+
 }
+.btn-signup:hover {
+	letter-spacing: 1px;
+background-color:#3F72AF ;
+color:#000000;
+box-shadow: #000000;
+}
+.btn-signup:active{
+
+	letter-spacing: 1px;
+	background-color: #3F72AF;
+	color: #000000;
+	box-shadow: rgb(#2f5788);
+	transform: translateX(10px);
+	transition: 100ms;
+	}
